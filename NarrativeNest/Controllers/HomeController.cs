@@ -30,7 +30,7 @@ namespace NarrativeNest.Controllers
             return View();
         }
 
-        public IActionResult GetBook(int bookId)
+        public IActionResult GetBook(Guid bookId)
         {
             var bookIdGuid = new Guid(bookId.ToString());
             var bookById = _context.Books.FirstOrDefault(b => b.BookId == bookIdGuid);
