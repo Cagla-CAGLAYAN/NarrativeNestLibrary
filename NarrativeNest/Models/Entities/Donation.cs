@@ -11,6 +11,6 @@
 
         // Navigation Properties
         public User User { get; set; }   // Navigation Property to User
-        public Book Book { get; set; }   // Navigation Property to Book
+        public Books Book { get; set; }   // Navigation Property to Book
     }
 }
