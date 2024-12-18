@@ -13,7 +13,7 @@ namespace NarrativeNest.Models.Entities
 
 
         // Navigation Properties
-        public List<Favorite> Favorites { get; set; }  // One-to-Many (User to Favorite)
+        //public List<Favorite> Favorites { get; set; }  // One-to-Many (User to Favorite)
         public List<Borrow> Borrows { get; set; }      // One-to-Many (User to Borrow)
         public List<Donation> Donations { get; set; }  // One-to-Many (User to Donation)
         public List<Reservation> Reservations { get; set; } // One-to-Many (User to Reservation)
