@@ -1,6 +1,6 @@
 ﻿namespace NarrativeNest.Models.Entities
 {
-    public class Book
+    public class Books
     {
         public Guid BookId { get; set; }  // Primary Key
         public required string Title { get; set; }
